@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Online</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #263238;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #ccc;
+        }
+
+        .pontos {
+            font-size: 25px;
+            color: #ff9800;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .barra {
+            background-color: #ddd;
+            height: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .progresso {
+            background-color: #4caf50;
+            width: 70%;
+            height: 100%;
+        }
+
+        .conquista {
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        .bloqueada {
+            opacity: 0.45;
+        }
+
+        button {
+            background-color: #1976d2;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin-top: 20px;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>📚 Biblioteca Online</h1>
+
+    <span>João da Silva</span>
+
+</header>
+
+<div class="container">
+
+    <div class="card">
+
+        <h2>👤 Meu Perfil</h2>
+
+        <p>Nível 2</p>
+
+        <div class="pontos">
+            ⭐ 120 pontos
+        </div>
+
+        <p>Progresso para o próximo nível:</p>
+
+        <br>
+
+        <div class="barra">
+            <div class="progresso"></div>
+        </div>
+
+        <button>📖 Meus Empréstimos</button>
+
+        <button>🔎 Buscar Livros</button>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🏆 Minhas Conquistas</h2>
+
+        <div class="conquista">
+            🥉 <strong>Primeiro Empréstimo</strong>
+            <br>
+            ✓ Desbloqueada
+        </div>
+
+        <div class="conquista">
+            ⭐ <strong>Leitor Responsável</strong>
+            <br>
+            ✓ Desbloqueada
+        </div>
+
+        <div class="conquista bloqueada">
+            🏆 <strong>Leitor Frequente</strong>
+            <br>
+            🔒 Alcance 200 pontos
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
